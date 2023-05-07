@@ -1,0 +1,1089 @@
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+
+body{
+  padding-top: 0;
+}
+
+
+/* HEADER PAGE DESIGN */
+
+.headers{
+  width :100%;
+  height: 100px;
+  background-color: white;
+  padding: 10px 180px;
+  margin-top: 50px;
+  box-shadow: 1px 2px 8px  lightgray ; 
+  position: sticky;
+  top:0;
+  left:0;
+  z-index:10;
+}
+
+.headers .logo {
+  display : flex;
+  font-family: 'Trebuchet MS';
+  font-weight: 800;
+}
+
+.headers .logo h2{
+  font-weight: 800;
+  padding: 5px 10px;
+}
+
+
+.headers .logo img {
+  width:50px;
+  height : 50px;
+  border-radius: 50px;
+}
+
+.headers .login button {
+  background-color: rgb(61, 61, 226);
+  padding: 5px 14px 8px 14px;
+  border: rgb(61, 61, 248) 2px solid;
+  border-radius: 12px;
+  color : white;
+  font-weight: 600;
+}
+
+.headers .signups button {
+  background-color: white;
+  color : rgb(65, 65, 248);
+}
+
+.headers .profileLink img{
+  width:50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.show {
+  visibility :visible;
+  display: flex;
+}
+
+ .hidden {
+  display: none;
+}
+
+.headers .newBlogLink {
+  margin: 0 auto;
+  margin-right: 10px;
+  font-family: 'Trebuchet MS';
+}
+
+.headers .newBlogLink button {
+  margin-top: 5px;
+  padding : 8px 10px;
+  display : flex;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(133, 133, 249, 0.232);
+  border: 0;
+  border-radius: 12px;
+ 
+}
+
+.headers .newBlogLink p {
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  padding-left  :10px;
+  color: royalblue;
+  font-weight: 600;
+}
+
+
+.headers .navbarBg{
+  background-color: #ffffff;
+}
+
+.headers .navItem{
+  font-weight: 600;
+  color: royalblue;
+}
+
+.headers form{
+  margin-left: 20px;
+}
+
+.headers form input{
+  width:200px;
+  padding: 5px 10px;
+  border-radius: 18px 0 0 18px;
+  background-color: rgba(0, 0, 255, 0.055);
+  border: 1px lightblue solid;
+}
+
+.headers form button{
+  padding: 5px  12px;
+  background-color: royalblue;
+  color: #fafafa;
+  border-radius: 0 18px 18px 0 ;
+  border: 1px royalblue solid;
+}
+
+.headers form button .search{
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+/* HOME PAGE DESIGN */
+
+.homes{
+  width:100%;
+  padding: 10px 180px;
+}
+
+.homes .tops{
+  display: flex;
+  height:580px;
+  margin: 10px;
+}
+
+
+
+
+.homes .bgs{
+  filter: brightness(70%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+}
+
+.homes .bgs:hover {
+  transform: scale(1.2); 
+}
+
+.homes .tops .contents{
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  color: white;
+  user-select: none;
+}
+
+
+
+
+.homes .contents .card-label{
+  color: royalblue;
+  background-color: #fafafad7;
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+.homes .tops .left{
+  width:50%;
+  height:100%;
+  margin-right: 10px;
+  border-radius: 24px;
+  overflow: hidden; 
+  position: relative;
+}
+
+
+
+.homes .tops .left .bgs{
+  height:100%;
+  width:100%;
+  background-image: url("./Images/ronaldo.jpg");
+}
+
+
+.homes .tops .right{
+  width:50%;
+  height:100%;
+  padding-left: 10px;
+  border-radius: 24px;
+}
+
+
+.homes .tops .rightTop{
+  border-radius: 24px;
+  height: 50%;
+  margin-bottom: 20px;
+  overflow: hidden; 
+}
+.homes .tops .rightTop .bgs{
+  height:100%;
+  width:100%;
+  background-image: url("./Images/robotss.jpg");
+}
+
+
+.homes .tops .rightBot{
+  height: 46%;
+  display: flex;
+}
+
+.homes .tops .rightBota{
+  width: 50%;
+  height: 100%;
+  border-radius: 24px;
+  margin-right: 10px;
+  overflow: hidden; 
+}
+.homes .tops .rightBota .bgs{
+  height:100%;
+  width:100%;
+  background-image: url("./Images/entertainment.jpg");
+}
+
+
+
+.homes .tops .rightBotb{
+  margin-left: 10px;
+  width: 50%;
+  height: 100%;
+  overflow: hidden; 
+  border-radius: 24px;
+}
+.homes .tops .rightBotb .bgs{
+  height:100%;
+  width:100%; 
+  background-image: url("./Images/lifestyles.jpg"); 
+}
+
+
+
+.homes .mid .newPosts{
+  font-family : 'Trebuchet MS';
+  margin :30px 10px;
+  border : 1px solid rgb(164, 162, 162);
+  padding: 10px;
+}
+
+/* .homes .mid .newPosts h2{
+  width: 100%;
+} */
+
+.homes .mid .newPosts .posts{
+  width: 100%;
+  align-items: center;
+}
+
+.homes .mid .newPosts .post{
+  width: 28%;
+  margin: 30px 15px;
+  display: inline-block;
+  text-align: left;
+  
+
+}
+
+.homes .mid .newPosts .post img {
+  width:100%;
+  height : 220px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.newPosts .post p.heading {
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.newPosts .post p.b {
+  color: rgb(78, 75, 75);
+}
+
+.newPosts .post p.a {
+  color: blue;
+}
+
+
+
+.home-mid {
+  display: flex;
+}
+
+.recent-posts {
+  padding:10px;
+  width: 65%;
+}
+
+
+
+.pagination  button {
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 0;
+  font-weight: 600;
+}
+
+
+.pageActive  {
+  color : white;
+  background-color: rgb(71, 71, 239);
+  border: 2px red solid;
+}
+
+
+
+
+
+
+
+/* POST COMPONENT DESIGN */
+
+.postCmpnt{
+  font-family : 'Trebuchet MS';
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.postCmpnt img {
+  height: 440px;
+  width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.postCmpnt .pDes {
+  display : flex;
+  padding: 25px 0 0 0;
+  color: lightgray;
+} 
+
+.postCmpnt .pDes p {
+  margin-right: 10px;
+}
+
+.postCmpnt .pDes p .capital {
+  text-transform: uppercase;
+}
+
+.postCmpnt .pDes p .icons {
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+
+.postCmpnt  h2{
+ font-weight: 700;
+ padding-bottom: 15px;
+} 
+
+.postCmpnt  p{
+  color: gray;
+  font-weight:lighter;
+  padding-bottom: 10px;
+ } 
+
+
+
+
+
+
+
+
+
+/* POST PAGE DESIGN */
+
+.postPage{
+  font-family : 'Trebuchet MS';
+}
+
+
+.postPage .content{
+  padding: 10px 180px;
+  display: flex;
+}
+
+.postPage .content .article{
+  padding:10px;
+  width: 65%;
+}
+
+
+
+
+.postCom{
+  width: 100%;
+  margin : 50px 10px 0px 10px;
+}
+
+.postCom .top{
+  width: 100%;
+  display: flex;
+}
+
+.postCom .top h5{
+  padding: 20px 0px;
+  font-weight : 600;
+}
+
+.postCom img {
+  height : 65px;
+  width : 65px;
+  border-radius : 50px;
+  margin-right : 30px;
+  margin-left: 10px;
+}
+
+.postCom textarea {
+  width: 100%;
+  height : 150px;
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  color: gray;
+  border-radius: 8px;
+  border : 1px lightgray solid;
+}
+
+.postCom .bot {
+  text-align: right;
+}
+
+.postCom button {
+  padding: 5px 20px;
+  border: 0;
+  border-radius: 8px;
+  color : white;
+  background-color: rgb(77, 94, 245);
+}
+
+
+.postPage .content  .comments .com {
+  display : flex;
+  margin : 50px 10px;
+}
+
+
+.postPage .content  .comments .com img{
+  height : 100px;
+  width : 100px;
+  border-radius : 50px;
+  margin-right : 30px;
+}
+
+.postPage .content  .comments .com .top {
+  display : flex;
+}
+
+
+.postPage .content  .comments .com h5 {
+  font-weight : 600;
+  margin-right : 40px;
+}
+
+
+
+
+
+
+
+/* SIDE BAR DESIGN */
+.sidebar{
+  margin-left: 5%;
+  width: 30%;
+  padding: 10px;
+}
+
+
+.sidebar .author{
+  background-color:#e9f7ff;
+  border : 1px lightgray solid;
+  text-align : center;
+  padding : 20px;
+  color : gray;
+  margin-bottom:30px;
+}
+
+
+
+.sidebar .author img{
+  margin : 0 auto;
+  width:70%;
+  border-radius:120px;
+  margin-bottom : 25px;
+}
+
+.sidebar .author h5 {
+  font-weight:600;
+  color : black;
+}
+
+
+.sidebar .adsb {
+  height : 500px;
+  background-image: url("./Images/audiads.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom:30px;
+}
+
+.sidebar .ads {
+  height : 500px;
+  background-image: url("./Images/burgerads.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom:30px;
+}
+
+
+
+.sidebar .categories{
+  border : 1px lightgray solid;
+  padding : 20px;
+  margin-bottom:30px;
+}
+
+.categories .cat {
+  display: flex;
+}
+
+.categories .cat a {
+  width:80%;
+  color : black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.categories .cat p.a {
+  width:80%;
+}
+
+
+
+.sidebar .related{
+  border : 1px lightgray solid;
+  padding :  20px;
+  margin-bottom:30px;
+}
+
+.sidebar .related .rpost {
+  display : flex;
+  margin : 20px 0;
+}
+
+.sidebar .related .rpost img {
+  width : 25%;
+  border-radius :8px;
+  margin-right : 20px;
+  height :85px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.sidebar .related .rpost h6 {
+  font-weight : 600;
+  color : rgb(13, 1, 51);
+}
+
+.sidebar .related .rpost a {
+  text-decoration: none;
+}
+
+
+
+.sidebar .related .rpost p {
+  color : gray ;
+  font-weight : lighter;
+}
+
+
+
+
+/* PAGE-CAT PAGE DESIGN */
+
+
+.postCat {
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.postCat .tops {
+  background-color: royalblue;
+  height: 350px ; 
+  margin-bottom: 20px;
+  overflow: hidden;
+  position :relative;
+}
+
+.postCat .banner{
+  height: 100%;
+  background-image: url(./Images/buisness.jpg);
+}
+
+.postCat .banner{
+  filter: brightness(60%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 1s;
+  justify-content: center;
+}
+
+.postCat .banner:hover {
+  transform: scale(1.2); 
+}
+
+
+.postCat .tops .content{ 
+  width: 100%;
+  position: absolute;
+  bottom : 100px;
+  padding: 20px;
+  color: white;
+}
+
+.postCat .tops h1{
+  font-weight: 800; 
+  width: 100%;
+  font-size: 62px;
+  text-align: center;
+  color: white;
+}
+
+
+.postCat .tops h4{ 
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.postCat .tops h4 span {
+  color: rgb(162, 159, 159);
+}
+
+.postCat .postCatMid {
+  margin: 10px 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NEW BLOG PAGE DESIGN */
+
+
+.newBlog{
+  font-family : 'Trebuchet MS';
+  padding: 10px 280px;
+}
+
+.newBlog .contents {
+  display: flex;
+  height: 100%;
+}
+
+.newBlog .contents .left {
+  height: auto;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.newBlog .contents .mid {
+  width:5%
+}
+
+.newBlog .contents .right {
+  padding: 20px;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.newBlog .contents textarea{
+  height: 420px;
+  color: rgb(82, 79, 79);
+  padding: 10px;
+}
+
+.newBlog .contents label{
+  margin-bottom: 10px;
+}
+
+.newBlog  input, .newBlog  textarea, .newBlog  select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color:rgba(192, 194, 251, 0.152);
+}
+
+
+.newBlog .contents .imgPrv {
+  width:100%;
+  height:220px;
+  border : 2px rgb(149, 149, 246) dashed;
+  border-radius: 12px;
+  background-color:rgba(192, 194, 251, 0.152);
+}
+
+.newBlog .contents .imgInput{
+  /* display: none; */
+}
+
+.newBlog .contents .imgLabel{
+  cursor:pointer;
+}
+
+.newBlog .bottoms{
+  display: flex;
+}
+
+.newBlog .bottoms .a{
+  width:60%;
+}
+
+.newBlog .bottoms .a .uploadImage{
+  border:0;
+  padding: 0 22px;
+  background-color:#fafafa;
+}
+
+.newBlog .bottoms .b{
+  margin-top: 20px;
+  width:40%;
+  
+}
+
+.newBlog .submit{
+  align-items: right;
+  text-align: right;
+}
+
+.newBlog .submit .publish{
+  align-items: right;
+  text-align: right;
+  background-color: blue;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border : 0;
+  border-radius: 8px;
+  color: white;
+}
+
+.newBlog .submit .draft{
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  color: blue;
+  margin: 0 5px;
+}
+
+
+
+
+/* SIGNUP AND LOGIN PAGE DESIGN */
+
+
+.signup{
+  font-family: 'Trebuchet MS';
+  width:100%;
+  height: 100vh;
+  background-color: rgba(211, 211, 211, 0.612);
+  /* background-image: url('./Images/bg_login.jpg'); */
+  align-items: center;
+  padding-top:60px;
+}
+
+.signup .container{
+  margin: 0 auto;
+  width: 750px;
+  display: flex;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.signup .left{
+  width:50%;
+  display: flex ;
+  flex-direction: column;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.signup .left img{
+  width:250px;
+  height : 250px;
+  border-radius: 250px;
+
+}
+
+.signup .loginImg {
+  margin-top : 70px;
+  border-radius: 0px;
+}
+
+.signup .left .imgInput{
+ display: none;
+}
+
+.file-input-label {
+  padding: 5px 10px;
+  border : 2px rgb(54, 54, 247) solid;
+  border-radius: 8px;
+  color : rgb(54, 54, 247) ;
+  margin-top: 10px;
+}
+
+.file-input-label:active{
+ background-color: rgb(54, 54, 247); 
+ color :  white ; 
+}
+
+.signup .signupLeft{
+  margin-top: 60px;
+}
+
+.signup .right{
+  margin :15px;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  text-align: left;
+  padding: 20px;
+  /* box-shadow: 2px 0px  8px 4px  lightgray ;  */
+} 
+
+.signup .right .top{
+  height: 80px;
+  line-height:1rem;
+}
+
+.signup .right .top p{
+  font-size: 15px;
+  color : gray;
+}
+
+.signup .right .mid{ 
+  height: 230px;
+}
+
+.signup .right .signupMid{ 
+  height: 300px;
+}
+
+.signup .right .mid label{
+  margin-bottom: 5px;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+.signup .right .mid input{
+  padding :10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+}
+
+.signup .right .mid button{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(68, 68, 249);
+  color: #fafafa;
+  border-color : rgb(68, 68, 249);
+}
+
+.signup .right  button:active{
+  background-color: #e9f7ff;
+  color : blue;
+}
+
+.signup .right .bot{
+  height: 20%;
+}
+
+.signup .right form{
+  display:flex;
+  flex-direction: column;
+}
+
+.signup .right .bot .or{
+  font-size: small;
+  color: gray;
+  text-align: center;
+}
+
+.signup .right .bot {
+  display:flex;
+  flex-direction: column;
+}
+
+.signup .right .bot button{
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  color: tomato;
+  border: tomato 2px solid; 
+  font-weight: 700;
+}
+
+
+
+
+
+/* PROFILE PAGE DESIGN */
+
+
+.profile .profileMid {
+  margin: 50px 180px 10px 180px;
+}
+
+.sidebar .profileDetails {
+  background-color:#e9f7ff;
+  border : 1px lightgray solid;
+  text-align : center;
+  padding : 20px;
+  color : gray;
+  margin-bottom:30px;
+}
+
+.sidebar .profileDetails img {
+  width : 200px;
+  height : 200px;
+  border-radius: 100px;
+  margin-bottom : 25px;
+}
+
+
+.sidebar .profileDetails h5 {
+  font-weight:600;
+  color : black;
+}
+
+.sidebar .profileDetails .bot {
+  display: flex;
+  position: relative;
+  padding: 10px 30px;
+}
+
+.sidebar .profileDetails button.b {
+  position: absolute;
+  right: 30px;
+  padding: 5px 20px 7px 20px;
+  background-color: rgb(251, 81, 84);
+  color: #fafafa;
+  font-weight: 600;
+  border: 0;
+  border-radius: 8px;
+}
+
+.sidebar .profileDetails button.a {
+  background-color: rgb(81, 81, 251);
+  padding: 5px 10px 7px 10px;
+  color: #fafafa;
+  font-weight: 600;
+  border: 0;
+  border-radius: 8px;
+}
+
+
+
+button:active {
+  color: royalblue;
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+  .headers{
+    height: auto;
+  }
+
+  .headers .menus{
+    visibility: visible;
+    width:30%;
+  }
+
+  .headers .left{
+    width:30%;
+    text-align: center;
+  }
+
+  .headers .mid{
+    visibility: hidden;
+    width: 0;
+  }
+
+  .headers .right{
+    width:40%;
+  }
+  
+  
+
+  /* HOME PAGE DESIGN */
+
+
+/* 
+  .homes{
+    padding: 0;
+  }
+
+  .homes .tops {
+    height: 1000px;
+
+  }
+
+  .homes .tops div{
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    height:auto;
+  }
+
+  .homes .tops .card{
+    display: inline;
+    height:200px;
+  }
+
+   */
+
+}
+
+
+
